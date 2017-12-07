@@ -8,6 +8,8 @@
 
 ## Description
 
+Bot for [Exmo Exchange](https://exmo.me/?ref=168135)
+
 The main task of the bot is collecting information about the account and sending the report by mail.
 
 ---
