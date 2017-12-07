@@ -1,6 +1,6 @@
 {
   "name": "exmo-monit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Exmo monitoring",
   "main": "index.js",
   "scripts": {
