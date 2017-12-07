@@ -4,7 +4,7 @@
     const math = require('mathjs')
     const schedule = require ('node-schedule')
 
-    var config = require ('./modules/config')
+    var config = require ('./config')
 
     const exmo = require ('./modules/exmo')
     const mail = require ('./modules/mail')

@@ -3,7 +3,7 @@
     const querystring = require ('querystring')
     const request = require ('request')
 
-    var config = require ('./config')
+    var config = require ('./../config')
     var setup = config.exmo
     var nonce = Math.floor (new Date ().getTime ())
 
