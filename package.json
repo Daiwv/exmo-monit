@@ -1,0 +1,39 @@
+{
+  "name": "exmo-monit",
+  "version": "0.0.1",
+  "description": "Exmo monitoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js && pm2 monit",
+    "restart": "pm2 restart index.js && pm2 monit",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8hp/exmo-monit.git"
+  },
+  "keywords": [
+    "bot",
+    "coin",
+    "cryptocurrency",
+    "bitcoin",
+    "exchange",
+    "expert",
+    "monitoring",
+    "exmo",
+    "api"
+  ],
+  "author": "Vyacheslav Tomasevich <vyacheslav.tomasevich@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/8hp/exmo-monit#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "ejs": "^2.5.7",
+    "mathjs": "^3.17.0",
+    "moment": "^2.19.3",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.4.0",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0"
+  }
+}

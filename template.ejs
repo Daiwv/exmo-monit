@@ -1,0 +1,22 @@
+<h1>report <%= title.date %> [<%= title.time%>]</h1>
+<% type.forEach ((name) => { %>
+    <% if (content.currency[name] != '') { %>
+    <h2><%= name %>:</h2>
+    <table>
+	    <tr>
+	    <% header.forEach ((hv, hi, ha) => { %>
+		<td><%= header[hi] %></td>
+	    <% }) %>
+	    </tr>
+	    <% for (var a = 0; a < content.currency[name].length; a++) { %>
+		<tr>
+		    <td><%= content.currency[name][a] %></td>
+		    <td><%= content.volume[name][a] %></td>
+		    <td><%= content.amount[name][a]  %></td>
+		</tr>
+	    <% } %>
+	</table>
+    <% } %>
+<% }) %>
+<hr>
+<p>total on #<%= title.uid %>: <b><%= balance %></b></p>
