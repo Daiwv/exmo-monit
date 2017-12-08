@@ -6,7 +6,7 @@
 
 ---
 
-[![EXMO bitcon Exchange](https://exmo.me/static/img/affiliate/affiliate4_ru.png "EXMO bitcon Exchange")](https://exmo.me/?ref=168135)
+[![EXMO bitcon Exchange](https://exmo.me/static/img/affiliate/affiliate4.png "EXMO bitcon Exchange")](https://exmo.me/?ref=168135)
 
 ---
 
