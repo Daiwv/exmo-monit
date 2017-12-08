@@ -38,6 +38,7 @@
 		    //console.log ('result:\n', ticker)
 		}
 		let balance = 0
+		let expectance = 0
 		let types = []
 		let currencys = []
 		let amounts = []
@@ -52,7 +53,7 @@
 			    let quantity = user_info[type][curr]
 			    let amount = 0
 			    if (quantity > 0) {
-				if (curr == config.currency) {
+				if (curr == 'USD') {
 				    amount = quantity
 				} else if (curr == 'RUB') {
 				    amount = quantity * ticker['USD_RUB'].buy_price
@@ -80,11 +81,12 @@
 		    console.log ('balance\n', balance)
 		}
 		template ({
+		    currency: config.currency,
 		    title: {uid: uid, date: date, time: time},
 		    type: types,
 		    header: ['currency', 'volume', 'amount'],
 		    content: {currency: currencys, volume: volumes, amount: amounts},
-		    balance: math.round (balance, 2) + ' ' + config.currency
+		    balance: math.round (balance, 2)
 		})
 	    })
 	})
