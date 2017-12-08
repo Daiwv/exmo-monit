@@ -2,11 +2,11 @@
   "name": "exmo-monit",
   "version": "0.0.5",
   "description": "Exmo monitoring",
-  "main": "index.js",
+  "main": "exmo-monit.js",
   "scripts": {
-    "start": "pm2 start index.js && pm2 monit",
-    "restart": "pm2 restart index.js && pm2 monit",
-    "test": "node index.js"
+    "start": "pm2 start exmo-monit.js && pm2 monit",
+    "restart": "pm2 restart exmo-monit.js && pm2 monit",
+    "test": "node exmo-monit.js"
   },
   "repository": {
     "type": "git",
