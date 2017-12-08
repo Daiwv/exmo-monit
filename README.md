@@ -12,7 +12,14 @@
 
 ## Description
 
-Bot for [Exmo Exchange](https://exmo.me/?ref=168135)
+Every self-respecting trader always keeps pace with the times and develops not only 
+trade and analysis skills, but also automation of the process. We are ready to 
+provide everyone with an absolutely free tool for "Monitoring". 
+
+This functionality will be useful if the trader is away from his computer and 
+it is very important for him to receive up-to-date information about the account. 
+
+In our case, we report to investors, adding them to the newsletter!
 
 The main task of the bot is collecting information about the account and sending the report by mail.
 
