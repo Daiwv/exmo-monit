@@ -1,0 +1,20 @@
+{
+    "debug": false,
+    "currency": "USD",
+    "exmo": {
+	"key": "K-0343a803e21fa0103ccc6025ed7bfe8b3529d822",
+	"secret": "S-9c7b2dec19sac58a79349bc4c3e3886ad36ce0f1",
+	"url": "https://api.exmo.me/v1/"
+    },
+    "mail": {
+	"server": "Gmail",
+	"user": "admin@gmail.com",
+	"password": "ausk wfst ziww yhqi",
+	"from": "ExmoMonit <admin@gmail.com>",
+	"time": "0 * * * *",
+	"subscribers": [
+	    "user1@gmail.com",
+	    "user2@gmail.com"
+	]
+    }
+}
