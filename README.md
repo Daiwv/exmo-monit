@@ -6,6 +6,10 @@
 
 ---
 
+[![EXMO bitcon Exchange](https://exmo.me/static/img/affiliate/affiliate4_ru.png "EXMO bitcon Exchange")](https://exmo.me/?ref=168135)
+
+---
+
 ## Description
 
 Bot for [Exmo Exchange](https://exmo.me/?ref=168135)
